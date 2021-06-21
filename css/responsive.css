@@ -1,0 +1,12 @@
+@media all and (min-width: 1300px) {
+  h1 {
+    font-size: 2.0em;
+    text-shadow: 2px 2px 1px rgba(90, 90, 90, 0.8);
+  }
+}
+@media all and (max-width: 1300px) {
+  h1 {
+    font-size: 2.0em;
+    text-shadow: 2px 2px 1px rgba(90, 90, 90, 0.8);
+  }
+}

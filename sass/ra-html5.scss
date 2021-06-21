@@ -1,0 +1,76 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />*/
+/*@import "normalize";*/
+@import "compass";
+/*@import "normalize";*/
+@import "variables";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/images";
+@import "compass/css3/flexbox";
+@import "compass/css3/flexbox";
+@import "compass/css3/transform";
+@import "compass/css3/animation";
+@import "compass/css3/font-face";
+
+@import "compass/utilities/color/contrast";
+@import "compass/typography/text/ellipsis";
+
+
+
+@font-face {
+	font-family: "forte";
+	src: url('../fuentes/FORTE.TTF');
+}
+@font-face {
+	font-family: "angrybirds";
+	src: url('../fuentes/angrybirds-regular.ttf');
+}
+@font-face {
+	font-family: "IndieFlower";
+	src: url('../fuentes/IndieFlower.otf');
+}
+
+
+
+
+
+a {
+    font-size:0.9em;
+font-family: "IndieFlower";
+font-weight: bold;
+text-align: center;
+margin:1px 10px;
+
+}
+a:active,
+    a:hover {
+
+}
+a {
+
+}
+a:hover {
+
+}
+
+h1{
+    font-size:1.6em;
+    font-family: "tahoma";
+    color:$colorCorp;
+    font-weight:bold;
+    padding:10px;
+
+@include ellipsis($no-wrap: true);
+background-color:contrast-color($color1_o);
+width:100%;
+padding:2px;
+@include border-radius(20px 10px 100px 0px);
+@include box-shadow( 2px 2px 3px rgba(240,0,180,0.75));
+@include transition-property(font-size,border,border-radius,box-shadow);
+@include transition-duration(1.0s);
+}

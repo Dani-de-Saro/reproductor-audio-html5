@@ -1,0 +1,26 @@
+@import "compass/utilities/color/contrast";
+
+
+//variables
+$colorCorp:#069;
+$colorContraste1:contrast-color($colorCorp);
+$colorToolbar1:#d0d0d0;
+$colorCustom1:rgba(220, 201, 9, 0.9);
+$colorCustom2:complement($colorCustom1);
+$sol:#cccc00;
+$color1: #FF0000; // Red
+$color1_o:rgb(64, 16, 83);// Red
+$color2: #FFBF00; // Orange
+$color2_o: rgba(255,210,0,0.9); // orange
+
+$color3: #FFFF00; // Yellow
+$color4: #7FFF00; // Green
+$color5: #007FFF; // Light Blue
+$color6: #00FFFF; // Cyan
+$color7: #0000FF; // Blue
+$color7_o:rgba(0,0,220,0.5);
+$color8: #7F00FF; // Purple
+$color9: #FF00FF; // Magenta
+$color10: #000; // Black
+$color11: #fff; // White
+//fin variables

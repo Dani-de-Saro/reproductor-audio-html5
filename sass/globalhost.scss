@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import "compass";
+/*@import "normalize";*/
+@import "variables";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/images";
+@import "compass/css3/flexbox";
+@import "compass/css3/flexbox";
+@import "compass/css3/transform";
+@import "compass/css3/animation";
+@import "compass/css3/font-face";
+
+@import "compass/utilities/color/contrast";
+@import "compass/typography/text/ellipsis";
+
+
+
+@font-face {
+  font-family: "angrybirds";
+  src: url("../fuentes/angrybirds-regular.ttf");
+}
+
+html {
+    font-size:1em;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+    width:99%;
+height:100%;
+ background-attachment: fixed;
+outline:0px solid #ff0000;
+@include transition-property(background,color);
+@include transition-duration(0.5s);
+
+}
+body{
+  color:purple;
+  background:#c0c0c0 url(none);
+padding:1px;
+}
+h1{
+  font-size:1.3em;
+  font-family:impact;
+    color:white;
+margin:3px;
+padding:2px;
+transition-property: font-size;
+  transition-duration: 0.5s;
+text-shadow: 1px 1px 1px rgba(90, 90, 90, 0.8);
+}
+h2{
+font-size:1.1em;
+font-family:"angrybirds";
+margin:3px;
+padding:2px;
+}
+article{
+color:black;
+margin:2rem;
+
+}
+p{
+margin:3px;
+padding:3px;
+}
