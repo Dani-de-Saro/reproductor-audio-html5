@@ -74,3 +74,42 @@ padding:2px;
 @include transition-property(font-size,border,border-radius,box-shadow);
 @include transition-duration(1.0s);
 }
+#panelInfoMusic {
+  border: 0px solid red;
+  height: 1rem;
+  color: navy;
+  padding: 1px;
+}
+
+#panelInfoMusic2 {
+  color: green;
+  height: 1rem;
+  border: 0px solid blue;
+  padding: 1px;
+}
+
+#capaSliderTime {
+  width: 90%;
+  border: 0px solid red;
+}
+
+#sliderTime {
+  padding: 1px;
+  width: 96%;
+}
+
+#listadoTemasDescarga {
+  /*height:1rem;*/
+  overflow: auto;
+  border: 0px solid navy;
+  padding: 1px;
+  text-align: center;
+}
+#listadoTemasDescarga a.enlaces-temas:link {
+  color: navy;
+}
+
+/*
+    Created on : 08-abr-2020
+    Author     : Dani de Saro
+*/
