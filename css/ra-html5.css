@@ -109,3 +109,110 @@ h1 {
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
 }
+
+#panelInfoMusic {
+  border: 0px solid red;
+  height: 1rem;
+  color: navy;
+  padding: 1px;
+}
+
+#panelInfoMusic2 {
+  color: green;
+  height: 1rem;
+  border: 0px solid blue;
+  padding: 1px;
+}
+
+#capaSliderTime {
+  width: 90%;
+  border: 0px solid red;
+}
+
+#sliderTime {
+  padding: 1px;
+  width: 96%;
+}
+
+#listadoTemasDescarga {
+  /*height:1rem;*/
+  overflow: auto;
+  border: 0px solid navy;
+  padding: 1px;
+  text-align: center;
+}
+
+#listadoTemasDescarga a.enlaces-temas:link {
+  color: navy;
+}
+
+/*
+    Created on : 08-abr-2020
+    Author     : Dani de Saro
+*/
+#panelInfoMusic {
+  border: 0px solid red;
+  height: 1rem;
+  color: navy;
+  padding: 1px;
+}
+
+#panelInfoMusic2 {
+  color: green;
+  height: 1rem;
+  border: 0px solid blue;
+  padding: 1px;
+}
+
+#capaSliderTime {
+  width: 90%;
+  border: 0px solid red;
+}
+
+#sliderTime {
+  padding: 1px;
+  width: 96%;
+}
+
+#listadoTemasDescarga {
+  /*height:1rem;*/
+  overflow: auto;
+  border: 0px solid navy;
+  padding: 1px;
+  text-align: center;
+}
+#listadoTemasDescarga a.enlaces-temas:link {
+  color: navy;
+}
+
+#content2 {
+  width: 17rem;
+  height: 13rem;
+  font-size: 0.9em;
+  line-height: 1.3em;
+  padding: 10px;
+  margin: 3px;
+  outline: 0px darkcyan solid;
+  -moz-border-radius: 0px 0px 20px 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px 0px 20px 0px;
+  -moz-transition-property: box-shadow, background, color;
+  -o-transition-property: box-shadow, background, color;
+  -webkit-transition-property: box-shadow, background, color;
+  transition-property: box-shadow, background, color;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  overflow: hidden;
+}
+
+#content2:hover {
+  height: auto;
+  -moz-box-shadow: inset 2px 2px 20px rgba(90, 90, 90, 0.75);
+  -webkit-box-shadow: inset 2px 2px 20px rgba(90, 90, 90, 0.75);
+  box-shadow: inset 2px 2px 20px rgba(90, 90, 90, 0.75);
+  border: 2px groove silver;
+  color: purple;
+  background-color: #f0f0f0;
+}
