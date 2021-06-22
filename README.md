@@ -3,11 +3,16 @@ VERSION 1.0.0
 # reproductor-audio-html5
 
 OBJETIVOS DE ESTA VERSION
+
 -optimizar script y añadir comentarios.
+
 -optimizar css y sass, ordenar código (comentarios, tabulaciones etc).
+
 -añadir iconos a botones del reproductor.
 
-reproductor html utilizando el objeto audio de la API de html5
+QUE ES ESTE PROYECTO
+
+Reproductor html utilizando el objeto audio de la API de html5
 
 En mi página web (https://www.danidesaro.com/musica) utilizo un reproductor diseñado por mi, y el objetivo de este proyecto, es compartir una versión actualizada de ese  reproductor, rediseñandolo para que cualquier desarrollador web lo pueda implementar de una manera más o menos sencilla, tratando con este proyecto de mejorarlo y añadir más características.
 
