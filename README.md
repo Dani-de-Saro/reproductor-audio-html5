@@ -1,3 +1,5 @@
+rama v.1.0.0
+
 VERSION 1.0.0
 
 # reproductor-audio-html5
