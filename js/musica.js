@@ -5,29 +5,29 @@
 /*var textoBusqueda;
 var resultBusqueda;*/
 
-var objJson2;
-var imgLoad;
-var t_old;
-var miPlayer;
-var cadenaLista=[];
-var temas=[];
-var sel;
-var miImg1=new Image();
-//miImg1.src="../img/aniFire.png";
+var objJson2;/*objeto que contiene el contenido de la lista de temas , archvo json prop:obj_lista_temas*/
+var imgLoad; /* imagen de carga de petición ajax prop:img_carga*/
+
+
+var t_old;/*variable que contiene el texto  anterior  a un cambio del title*/
+var miPlayer;/*variable que  representa al reproductor prop:ra_html5*/
+var cadenaLista=[];/*array que contiene un objeto  que representa cada tema de la lista de temas prop:lista_objs_tema*/
+var temas=[];/*array que almacena cada objeto tema creado a partir de la lista de temas*/
+var sel;/*representa al objeto select que almacena los temas que hay en la lista*/
+var miImg1=new Image();/*imagen estatica que se activa al reproducir un tema prop:img_stop*/
 miImg1.src="imgs/logotipo-transp-mini.png";
-var miImg2=new Image();
-//miImg2.src="../img/aniFire.gif";
+var miImg2=new Image();/*imagen que aparece cuando se activa la imagen estatica prop:img_play*/
 miImg2.src="imgs/ani-logotipo-mini.gif";
 t_old=""+ document.title +"";
-var sliderVol;
-var slider_speed;
-var loopcheck;
-var panelinfomusic;
-var panelinfomusic2;
-var slidertime;
-var listadotemasdescarga;
+var sliderVol;/*objeto que representa la barra de volumen prop:barra_volumen*/
+var slider_speed;/*objeto que representa la barra de control de velocidad de reproducción prop:barra_velocidad*/
+var loopcheck;/*objeto que representa el control checked de opción de reproducir en buble*/
+var panelinfomusic;/*representa el texto donde informa de la duración total del tema cargado en el reproductor*/
+var panelinfomusic2;/*representa el texto que informa del tiempo trascurrido de la reproducción actual*/
+var slidertime;/*representa la barra de velocidad de reproducción*/
+var listadotemasdescarga;/*listado con enlaces directos a los temas para su descarga prop:seria conveniente que se generara el enlace a petición*/
 
-function eventos(){
+function eventos(){/*eventos generados por el reproductor cuando se cargaun tema de la lista de temas en él*/
 
 miPlayer.addEventListener("loadeddata",function(){
     sel=document.getElementById("sel");
